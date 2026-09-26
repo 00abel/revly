@@ -1,0 +1,49 @@
+
+### Chucknaut drive
+POST http://localhost:8080/roads
+Content-Type: application/json
+
+{
+  "name": "Chucknaut drive",
+  "region": "skagit"
+}
+
+### North cascade highway
+POST http://localhost:8080/roads
+Content-Type: application/json
+
+{
+  "name": "North Cascades Highway",
+  "region": "Okanogan"
+}
+
+### Mountain Loop Highway
+POST http://localhost:8080/roads
+Content-Type: application/json
+
+{
+  "name": "Mountain Loop Highway",
+  "region": "Snohomish"
+}
+
+### Chinook Pass
+POST http://localhost:8080/roads
+Content-Type: application/json
+
+{
+  "name": "Chinook Pass",
+  "region": "Pierce"
+}
+
+### White Pass
+POST http://localhost:8080/roads
+Content-Type: application/json
+
+{
+  "name": "White Pass",
+  "region": "Lewis"
+}
+
+
+### List all roads
+GET http://localhost:8080/roads
